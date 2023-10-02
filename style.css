@@ -13,7 +13,7 @@ body {
 .title {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: fixed;
-  top: 10px;
+  top: 20px;
   transition: 1s;
   text-transform: capitalize;
   color: #ced6e0;
@@ -51,7 +51,7 @@ body {
 .active-btn {
   left: 124px;
   transition: 1s;
-  background-color: #282f44;
+  background-color: #181b25;
 }
 .active-body {
   background-color: #2f3542;
