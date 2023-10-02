@@ -1,8 +1,8 @@
-var containerEl = document.getElementById("container");
-var btnEl = document.getElementById("btn");
-var bodyEl = document.querySelector("body");
-var titleEl = document.getElementById("title");
-var mode;
+const containerEl = document.getElementById("container");
+const btnEl = document.getElementById("btn");
+const bodyEl = document.querySelector("body");
+const titleEl = document.getElementById("title");
+let mode;
 
 if (localStorage.getItem("Mode") == "dark") {
   updatePage();
